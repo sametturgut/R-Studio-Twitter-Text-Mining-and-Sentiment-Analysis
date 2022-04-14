@@ -72,10 +72,10 @@ library(readxl)
 
 options(httr_oauth_cache=T)
 
-APIkey <- "X4Ldvspy9rJPbQQvIgKZUJTD3"
-APIsecret <- "e9RTNSQnOZN7G7cO0BJhQ3dFHNuV6cEF879ihjpcIeHStzEGXb"
-access_token <- "802721334-yCrIMy3wIWFZyqmG8Qv8xSOQzgLlAp1qptXd4Sxa"
-access_secret <- "DW3h24r4jHhASzSqwOvMSmqriFlCRoACWmKeLvlp4AFxQ"
+APIkey <- "SSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+APIsecret <- "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+access_token <- "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
+access_secret <- "SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS"
 
 setup_twitter_oauth(APIkey, APIsecret, access_token, access_secret)
 
