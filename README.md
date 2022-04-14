@@ -12,7 +12,6 @@ PROJENİN ÖZETİ
 
 METİN MADENCİLİĞİ ADIM ADIM
 
-
 Metin Madenciliği için twitter_steam_text_mining.R adlı dosyaya gidiniz.
 
 R kodlarının çalışması için öncelikle gerekli olan paketlerin bilgisayara yüklenmesi gerekiyor. Bunun için install.packages() komutunu kullanıyoruz.
@@ -64,3 +63,8 @@ Bu skor dağılımlarını daha iyi görmek için bir histogram grafiğinde gös
 Son olarak bu skorların 0’ın üzeri pozitif, 0’ın altı negatif ve 0’a eşit olanlarını nötr olarak gruplandırmak kalıyor. Bu aşamada artık pozitif ve negatif değerlerde 0’ın ne kadar üzerinde veya ne kadar altında olduğunun bir önemi kalmıyor. Son grafiği de ggplot paketiyle oluşturuyoruz. Artık 7500 adet tweet’in duygu tipi bar grafiği de oluşmuş oluyor.
 
 Duygu analizinin sonucunda 7500 adet tweet içerisinden büyük çoğunluğu nötr tweetlerin oluşturduğunu görmekteyiz. Yaklaşık 4250 adet nötr tweet bulunuyor. Nötr tweet’lerin ardından ise pozitif tweet’ler geliyor. Yaklaşık 2750 adet pozitif tweet bulunuyor. Son sırada ise negatif tweet’ler bulunuyor. Yaklaşık 600 adet negatif tweet bulunmaktadır. Nötr tweet’ler bütün tweet’lerin yaklaşık %56’sını, pozitif tweet’ler bütün tweet’lerin yaklaşık %36’sını ve negatif tweet’ler ise bütün tweet’lerin yaklaşık %8’ini oluşturmaktadır.
+
+Metin madenciliği ve Duygu Analizi işlemlerinin sonuna gelmiş bulunmaktayız. Kelime bulutu ve histogram grafikleri temel kullanım için yeterli durumdadır ancak isteğinize göre daha çeşitli işlemlerden geçirip daha farklı görsel çıktılar da alabilirsiniz.
+
+19.01.2022
+SAMET TURGUT
